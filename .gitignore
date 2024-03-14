@@ -1,0 +1,5 @@
+
+/logs
+/.fabric
+saves/Metro/DIM1/data/DistantHorizons.sqlite
+*.sqlite

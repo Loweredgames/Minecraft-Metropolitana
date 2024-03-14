@@ -22,16 +22,21 @@ mode = "fancy"
 		[light_sources.settings.entities]
 
 			[light_sources.settings.entities.minecraft]
-				horse = true
 				chicken = true
+				item = true
 				donkey = true
+				cow = true
+				pig = true
+				horse = true
 				zombie = true
 				glow_squid = true
 				glow_item_frame = false
-				cow = true
 				squid = true
 				sheep = true
 				creeper = true
 				player = true
-				pig = true
+
+			[light_sources.settings.entities.create]
+				carriage_contraption = true
+				super_glue = true
 
