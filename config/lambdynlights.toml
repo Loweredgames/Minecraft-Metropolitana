@@ -24,8 +24,11 @@ mode = "fancy"
 			[light_sources.settings.entities.minecraft]
 				chicken = true
 				item = true
+				bee = true
+				wolf = true
 				donkey = true
 				cow = true
+				chest_minecart = true
 				pig = true
 				horse = true
 				zombie = true
