@@ -31,15 +31,20 @@ mode = "fancy"
 				chest_minecart = true
 				pig = true
 				horse = true
+				painting = true
 				zombie = true
 				glow_squid = true
 				glow_item_frame = false
 				squid = true
 				sheep = true
 				creeper = true
+				lightning_bolt = true
 				player = true
 
 			[light_sources.settings.entities.create]
 				carriage_contraption = true
 				super_glue = true
+
+			[light_sources.settings.entities.railways]
+				conductor = true
 
