@@ -10,11 +10,11 @@ bossbar set minecraft:building max 100
 
 #Version Number
 
-bossbar set building name {"text":"JE-1.20.1-Metropolitana:BUILDING:25.03.2024.21836a","color":"white","bold":true}
+bossbar set building name {"text":"JE-1.20.1-Metropolitana:BUILDING:13.04.2024.12036a","color":"white","bold":true}
 
 #Map Progress
 
-bossbar set minecraft:building value 35
+bossbar set minecraft:building value 40
 
 #Bossbar Visible
 

@@ -25,6 +25,7 @@ mode = "fancy"
 				chicken = true
 				item = true
 				bee = true
+				turtle = true
 				wolf = true
 				villager = true
 				donkey = true

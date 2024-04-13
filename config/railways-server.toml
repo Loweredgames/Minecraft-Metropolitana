@@ -10,8 +10,15 @@
 	#Allow controlling Brass Switches remotely when approaching them on a train
 	flipDistantSwitches = true
 	#.
+	#Multiplier used for calculating exhaustion from speed when a handcar is used.
+	#Range: 0.0 ~ 1.0
+	handcarHungerMultiplier = 0.009999999776482582
+	#.
 	#Coupler will require points to be on the same or adjacent track edge, this will prevent the coupler from working if there is any form of junction in between the two points.
 	strictCoupler = false
+	#.
+	#Allow creepers and ghast fireballs to damage tracks
+	creeperTrackDamage = false
 
 #.
 #Semaphore settings
@@ -35,6 +42,10 @@
 	#.
 	#Conductor whistle is limited to the owner of a train
 	mustOwnBoundTrain = false
+	#.
+	#How often a conductor whistle updates the train of the bound conductor
+	#Range: 1 ~ 600
+	whistleRebindRate = 10
 
 #.
 #Journeymap compat settings
@@ -52,13 +63,13 @@
 	nearTrainSyncTicks = 5
 
 #.
-#Optimization settings (may be experimental)
-[optimization]
+#Realism Settings
+[realism]
+	#.
+	#Make fuel tanks only accept proper liquid fuels (so water etc can't go into them)
+	realisticFuelTanks = true
 	#.
 	#.
-	#Disable collisions between trains. May have significant performance impact if playing with many trains
-	disableTrainCollision = false
-	#.
-	#Optimizes belts placing items onto belts by skipping the calculation of an unused, but expensive, variable
-	optimizeFunnelBeltInteraction = false
+	#Make trains require fuel to run (either from fuel tanks or solid fuels in chests/barrels)
+	realisticTrains = false
 
