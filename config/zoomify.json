@@ -22,5 +22,5 @@
   "secondaryZoomInTime": 10.0,
   "secondaryZoomOutTime": 1.0,
   "secondaryHideHUDOnZoom": true,
-  "_firstLaunch": true
+  "_firstLaunch": false
 }
